@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Utility
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Utility\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=numInList
+comment1.target=java.lang.String\ cardToString(int)
+comment1.text=\r\n\ Return\ the\ card's\ suit\ and\ number\ \r\n\ \r\n\ @param\ numInList\ the\ assigned\ number\ of\ the\ card\ \r\n\ @return\ \ the\ card's\ suit\ and\ number\ \r\n
+comment2.params=numOfList
+comment2.target=int\ cardToValue(int)
+comment2.text=\r\n\ Return\ the\ value\ of\ the\ card\ \r\n\ \r\n\ @param\ numOfList\ the\ assigned\ value\ of\ the\ card\ \r\n\ @return\ the\ actual\ card\ value\ \r\n
+numComments=3

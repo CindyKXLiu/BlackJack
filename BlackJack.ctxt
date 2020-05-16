@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=BlackJack
+comment0.text=\r\n\ Game\ of\ BalckJack\ -\ simplified\ version\ of\ the\ game\ of\ \u201C21\u201D\r\n\ Game\ ends\ when\ both\ Dealer\ and\ Player\ stands\r\n\ Game\ is\ palyed\ with\ a\ standard\ 52\ deck\ of\ cards\r\n\ No\ money\ is\ involved\r\n\r\n\ @author\ Cindy\ Liu\r\n\ @version\ 29/10/18\r\n
+comment1.params=arg
+comment1.target=void\ main(java.lang.String[])
+comment2.params=
+comment2.target=BlackJack()
+comment2.text=\r\n\ Constructor\ for\ BlackJack\r\n
+comment3.params=p
+comment3.target=boolean\ noBlackJack(java.util.ArrayList)
+comment3.text=\r\n\ Determines\ if\ the\ dealer\ or\ the\ player\ hits\ black\ jack.\r\n\ \r\n\ @return\ \ wether\ there\ is\ a\ black\ jack\ or\ not.\r\n\ @param\ \ \ p\ \ \ arraylist\ of\ person.\ \r\n
+comment4.params=
+comment4.target=void\ printWelcomeMsg()
+comment4.text=\r\n\ Print\ welcome\ message\ \r\n
+comment5.params=
+comment5.target=boolean\ shouldReplay()
+comment5.text=\r\n\ Determine\ wether\ the\ Player\ wants\ to\ play\ another\ round.\r\n\ \r\n\ @return\ \ does\ the\ Player\ want\ another\ round.\r\n
+comment6.params=
+comment6.target=void\ reinitailzation()
+comment6.text=\r\n\ Re-initalizes\ objects\ for\ new\ game.\r\n
+comment7.params=
+comment7.target=void\ firstDeal()
+comment7.text=\r\n\ First\ deal\ of\ a\ game\ \r\n\ Two\ cards\ are\ given\ both\ the\ Player\ and\ Dealer\r\n
+comment8.params=
+comment8.target=void\ getResult()
+comment8.text=\r\n\ Prints\ the\ result\ of\ the\ game\ \r\n\ Add\ one\ to\ rounds\ played\ counter\r\n\ Add\ one\ to\ rounds\ won\ counter\ if\ Player\ wins\r\n
+numComments=9

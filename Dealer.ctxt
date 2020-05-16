@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Dealer
+comment0.text=\r\n\ A\ subclass\ of\ the\ superclass\ Person.\ \r\n\ Dealer\ of\ the\ game.\ \r\n\ \r\n\ @author\ Cindy\ Liu\r\n\ @version\ 29-10-18\r\n
+comment1.params=
+comment1.target=void\ printHand()
+comment1.text=\r\n\ Print\ hand\ with\ one\ card\ revealed\ and\ one\ card\ covered\ \r\n
+comment2.params=
+comment2.target=void\ printFinalHand()
+comment2.text=\r\n\ Overwrites\ the\ printFinalHand\ method\ of\ its\ superclass\ Person\r\n\ Print\ final\ hand\ -\ all\ cards\r\n
+comment3.params=
+comment3.target=void\ printScore()
+comment3.text=\r\n\ Print\ the\ score\ of\ the\ dealer\ before\ game\ ends\ (i.e.\ when\ both\ dealer\ and\ player\ stand)\r\n\ The\ value\ of\ the\ card\ shown\r\n
+comment4.params=
+comment4.target=void\ printFinalScore()
+comment4.text=\r\n\ Overwrites\ the\ printFinalScore\ method\ of\ its\ superclass\ Person\r\n\ Print\ the\ final\ score\ of\ the\ dealer\ after\ game\ ends\ \r\n\ Total\ sum\ of\ the\ cards\ on\ dealer's\ hand\ \ \r\n
+comment5.params=p\ d
+comment5.target=boolean\ shouldStand(Person,\ Deck)
+comment5.text=\r\n\ Decides\ wether\ dealer\ should\ stand\ or\ hit.\ \r\n\ Dealer\ hits\ if\ they\ do\ noty\r\n\ when\ dealer\ does\ not\ have\ a\ sum\ smaller\ than\ 21\ and\ when\ player\ does\ not\ have\ a\ sum\ greater\ than\ 21\ and\ either\ Player\ has\ a\ higher\ sum\ or\ a\ percentage\ of\ busting\ is\ less\ than\ 50%,\ a\ sum\ that\ is\ less\ or\ equal\ 16\r\n\ \r\n\ @return\ \ wether\ dealer\ should\ stand\r\n\ @param\ \ \ p\ \ \ the\ player/\ opponent.\ \ \r\n\ @param\ \ \ d\ \ \ the\ current\ deck\ used.\ \r\n
+comment6.params=p\ d
+comment6.target=double\ getChance(Person,\ Deck)
+comment6.text=\ \r\n\ Get\ the\ chance\ of\ the\ dealer\ busting\r\n\ \r\n\ @return\ \ the\ chance\ of\ the\ dealer\ busting\ \r\n\ @param\ \ \ p\ \ \ the\ player/\ opponent.\ \ \r\n\ @param\ \ \ d\ \ \ the\ current\ deck\ used.\ \r\n
+comment7.params=c\ p\ d
+comment7.target=void\ addCard(Card,\ Person,\ Deck)
+comment7.text=\r\n\ Overwrites\ the\ addCard\ method\ of\ its\ superclass\ Person\r\n\ Add\ card\ to\ hand\ if\ decides\ to\ hit\ \r\n\ Once\ dealer\ decides\ to\ stand,\ they\ can\ not\ longer\ chose\ to\ hit\ \r\n\ \r\n\ @param\ \ \ c\ \ \ the\ top\ card\ of\ the\ deck.\r\n\ @param\ \ \ p\ \ \ the\ Player.\ \r\n\ @param\ \ \ d\ \ \ the\ current\ deck.\r\n
+numComments=8

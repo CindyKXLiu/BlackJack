@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Player
+comment0.text=\r\n\ Subclass\ of\ Person\r\n\ Player/user\ of\ the\ game.\r\n\r\n\ @author\ Cindy\ Liu\r\n\ @version\ 29-10-18\r\n
+comment1.params=n
+comment1.target=Player(java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment2.text=\r\n\ Returns\ the\ name\ of\ the\ Player\r\n\ Overwrites\ the\ getName\ method\ of\ its\ superclass\ Person\r\n\ \r\n\ @return\ \ the\ name\ of\ the\ Player.\r\n
+numComments=3

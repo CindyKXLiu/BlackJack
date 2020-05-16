@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Card
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Card\ here.\r\n\r\n\ @author\ Cindy\ Liu\r\n\ @version\ 28-10-18\r\n
+comment1.params=aNumber
+comment1.target=Card(int)
+comment1.text=\r\n\ Card\ constructor\ \r\n\ \r\n\ @param\ aSuit\ \ \ \ \ the\ suit\ of\ the\ card\ \r\n\ @param\ aNumber\ \ \ the\ number\ of\ the\ card\r\n
+comment2.params=
+comment2.target=java.lang.String\ getCard()
+comment2.text=\r\n\ Return\ the\ number\ of\ the\ card\ and\ its\ suit.\ \r\n\ \r\n\ @return\ \ the\ number\ and\ suit\ of\ the\ card\r\n
+comment3.params=
+comment3.target=int\ getValue()
+comment3.text=\ \r\n\ \r\n
+numComments=4
